@@ -46,7 +46,7 @@ class NumbersTest {
         "15, 10, 10, -5",
         "-10, 2, -10, -2"
     )
-    fun testThreeNumbersSubWithValidNumbers(numberOne: Int, numberTwo: Int, numberThree: Int, expectedSumTwoValidNumbers: Int) {
+    fun testThreeNumbersSubtractWithValidNumbers(numberOne: Int, numberTwo: Int, numberThree: Int, expectedSumTwoValidNumbers: Int) {
         val numbers: Numbers = Numbers.ThreeNumbers(numberOne, numberTwo, numberThree)
         val actualSumThreeNumbers = numbers.sub()
         assertEquals(expectedSumTwoValidNumbers, actualSumThreeNumbers)
